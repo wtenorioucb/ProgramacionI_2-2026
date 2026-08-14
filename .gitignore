@@ -1,0 +1,14 @@
+# Ignorar todos los ejecutables compilados de Windows
+*.exe
+
+# Ignorar archivos objeto y temporales de compilación
+*.o
+*.obj
+*.out
+
+# Ignorar la carpeta de configuración local de VS Code
+.vscode/
+
+# Ignorar archivos temporales del sistema
+*.log
+Thumbs.db
