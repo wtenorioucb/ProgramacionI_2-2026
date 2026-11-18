@@ -1,11 +1,17 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 
 using namespace std;
 
 int main()
 {
     string nombre;
+    ifstream archivo("datos.txt");
+    if (archivo.is_open()) 
+    {
+        
+    }
     int edad=0;
     system("cls");
     cout << "Ingrese su edad: ";
